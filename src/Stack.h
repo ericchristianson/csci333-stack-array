@@ -4,7 +4,9 @@
 class Stack {
  private:
   int* theStack;
+  int* newStack;
   int top;
+  int capacity;
 
  public:
   Stack(int initialSize = 10);
